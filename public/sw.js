@@ -8,6 +8,5 @@ self.addEventListener('activate', function(e) {
 });
 
 self.addEventListener('fetch', function(e) {
-    console.log('[Service Worker] Fetching Someing...', e);
     e.respondWith(fetch(e.request));
 });
