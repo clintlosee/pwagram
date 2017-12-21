@@ -1,5 +1,5 @@
 var shareImageButton = document.querySelector('#share-image-button');
-var sharedMomentsArea = document.querySelector('#shared-moments');
+var sharedMomentsArea  = document.querySelector('#shared-moments');
 var createPostArea = document.querySelector('#create-post');
 var closeCreatePostModalButton = document.querySelector('#close-create-post-modal-btn');
 
